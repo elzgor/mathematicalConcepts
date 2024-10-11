@@ -1,4 +1,4 @@
-Playing around with ideas about prime numbers with Python. A description of each file is given below.
+Playing around with mathematical ideas using Python. A description of each file is given below.
 
 
 divisibilityByTwoPrimes:
