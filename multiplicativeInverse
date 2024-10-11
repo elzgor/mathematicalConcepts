@@ -1,0 +1,12 @@
+# Finding the multiplicative inverse of x modulo m
+# In other words, given x (in Z) and m (in N), find y s.t. xy === 1 mod m (where "===" represents congruence)
+
+def multInv(x,m):
+    for i in range (2,m):
+        if ((i * x) % m) == 1:
+            return i
+    return "ERROR"
+
+x = int(input("Please enter x: "))
+m = int(input("Please enter the modulus: "))
+print("The multiplicative inverse of x modulo m is: ", multInv(x,m))
